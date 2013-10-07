@@ -2,7 +2,7 @@
 //  FTHTTPCodes.h
 //
 //  Created by Ondrej Rafaj on 07/10/2013.
-//  Copyright (c) 2013 Fuerte Internationsl. All rights reserved.
+//  Copyright (c) 2013 Fuerte International. All rights reserved.
 //
 //  Codes and copy taken from: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 //
