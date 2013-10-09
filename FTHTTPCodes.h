@@ -109,7 +109,7 @@ typedef NS_ENUM(NSInteger, HTTPCode) {
 };
 
 
-@interface FTHTTPCode : NSObject
+@interface FTHTTPCodes : NSObject
 
 /**
  *  Return description for a specific HTTP status code

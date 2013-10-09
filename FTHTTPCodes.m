@@ -1,5 +1,5 @@
 //
-//  FTHTTPCode.m
+//  FTHTTPCodes.m
 //
 //  Created by Ondrej Rafaj on 07/10/2013.
 //  Copyright (c) 2013 Fuerte International. All rights reserved.
@@ -9,10 +9,10 @@
 //  Published under MIT license
 //
 
-#import "FTHTTPCode.h"
+#import "FTHTTPCodes.h"
 
 
-@implementation FTHTTPCode
+@implementation FTHTTPCodes
 
 
 #pragma mark Code descriptions
