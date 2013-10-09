@@ -1,5 +1,5 @@
 //
-//  FTHTTPCodes.h
+//  FTHTTPCode.h
 //
 //  Created by Ondrej Rafaj on 07/10/2013.
 //  Copyright (c) 2013 Fuerte International. All rights reserved.
@@ -12,104 +12,104 @@
 #import <Foundation/Foundation.h>
 
 
-typedef NS_ENUM(NSInteger, FTHTTPCodesNo) {
+typedef NS_ENUM(NSInteger, HTTPCode) {
     // Informational
-    FTHTTPCodesNo1XXInformationalUnknown = 1,
-    FTHTTPCodesNo100Continue = 100,
-    FTHTTPCodesNo101SwitchingProtocols = 101,
-    FTHTTPCodesNo102Processing = 102,
+    HTTPCode1XXInformationalUnknown = 1,
+    HTTPCode100Continue = 100,
+    HTTPCode101SwitchingProtocols = 101,
+    HTTPCode102Processing = 102,
     
     // Success
-    FTHTTPCodesNo2XXSuccessUnknown = 2,
-    FTHTTPCodesNo200OK = 200,
-    FTHTTPCodesNo201Created = 201,
-    FTHTTPCodesNo202Accepted = 202,
-    FTHTTPCodesNo203NonAuthoritativeInformation = 203,
-    FTHTTPCodesNo204NoContent = 204,
-    FTHTTPCodesNo205ResetContent = 205,
-    FTHTTPCodesNo206PartialContent = 206,
-    FTHTTPCodesNo207MultiStatus = 207,
-    FTHTTPCodesNo208AlreadyReported = 208,
-    FTHTTPCodesNo209IMUsed = 209,
+    HTTPCode2XXSuccessUnknown = 2,
+    HTTPCode200OK = 200,
+    HTTPCode201Created = 201,
+    HTTPCode202Accepted = 202,
+    HTTPCode203NonAuthoritativeInformation = 203,
+    HTTPCode204NoContent = 204,
+    HTTPCode205ResetContent = 205,
+    HTTPCode206PartialContent = 206,
+    HTTPCode207MultiStatus = 207,
+    HTTPCode208AlreadyReported = 208,
+    HTTPCode209IMUsed = 209,
     
     // Redirection
-    FTHTTPCodesNo3XXSuccessUnknown = 3,
-    FTHTTPCodesNo300MultipleChoices = 300,
-    FTHTTPCodesNo301MovedPermanently = 301,
-    FTHTTPCodesNo302Found = 302,
-    FTHTTPCodesNo303SeeOther = 303,
-    FTHTTPCodesNo304NotModified = 304,
-    FTHTTPCodesNo305UseProxy = 305,
-    FTHTTPCodesNo306SwitchProxy = 306,
-    FTHTTPCodesNo307TemporaryRedirect = 307,
-    FTHTTPCodesNo308PermanentRedirect = 308,
+    HTTPCode3XXSuccessUnknown = 3,
+    HTTPCode300MultipleChoices = 300,
+    HTTPCode301MovedPermanently = 301,
+    HTTPCode302Found = 302,
+    HTTPCode303SeeOther = 303,
+    HTTPCode304NotModified = 304,
+    HTTPCode305UseProxy = 305,
+    HTTPCode306SwitchProxy = 306,
+    HTTPCode307TemporaryRedirect = 307,
+    HTTPCode308PermanentRedirect = 308,
     
     // Client error
-    FTHTTPCodesNo4XXSuccessUnknown = 4,
-    FTHTTPCodesNo400BadRequest = 400,
-    FTHTTPCodesNo401Unauthorised = 401,
-    FTHTTPCodesNo402PaymentRequired = 402,
-    FTHTTPCodesNo403Forbidden = 403,
-    FTHTTPCodesNo404NotFound = 404,
-    FTHTTPCodesNo405MethodNotAllowed = 405,
-    FTHTTPCodesNo406NotAcceptable = 406,
-    FTHTTPCodesNo407ProxyAuthenticationRequired = 407,
-    FTHTTPCodesNo408RequestTimeout = 408,
-    FTHTTPCodesNo409Conflict = 409,
-    FTHTTPCodesNo410Gone = 410,
-    FTHTTPCodesNo411LengthRequired = 411,
-    FTHTTPCodesNo412PreconditionFailed = 412,
-    FTHTTPCodesNo413RequestEntityTooLarge = 413,
-    FTHTTPCodesNo414RequestURITooLong = 414,
-    FTHTTPCodesNo415UnsupportedMediaType = 415,
-    FTHTTPCodesNo416RequestedRangeNotSatisfiable = 416,
-    FTHTTPCodesNo417ExpectationFailed = 417,
-    FTHTTPCodesNo418IamATeapot = 418,
-    FTHTTPCodesNo419AuthenticationTimeout = 419,
-    FTHTTPCodesNo420MethodFailureSpringFramework = 420,
-    FTHTTPCodesNo420EnhanceYourCalmTwitter = 4200,
-    FTHTTPCodesNo422UnprocessableEntity = 422,
-    FTHTTPCodesNo423Locked = 423,
-    FTHTTPCodesNo424FailedDependency = 424,
-    FTHTTPCodesNo424MethodFailureWebDaw = 4240,
-    FTHTTPCodesNo425UnorderedCollection = 425,
-    FTHTTPCodesNo426UpgradeRequired = 426,
-    FTHTTPCodesNo428PreconditionRequired = 428,
-    FTHTTPCodesNo429TooManyRequests = 429,
-    FTHTTPCodesNo431RequestHeaderFieldsTooLarge = 431,
-    FTHTTPCodesNo444NoResponseNginx = 444,
-    FTHTTPCodesNo449RetryWithMicrosoft = 449,
-    FTHTTPCodesNo450BlockedByWindowsParentalControls = 450,
-    FTHTTPCodesNo451RedirectMicrosoft = 451,
-    FTHTTPCodesNo451UnavailableForLegalReasons = 4510,
-    FTHTTPCodesNo494RequestHeaderTooLargeNginx = 494,
-    FTHTTPCodesNo495CertErrorNginx = 495,
-    FTHTTPCodesNo496NoCertNginx = 496,
-    FTHTTPCodesNo497HTTPToHTTPSNginx = 497,
-    FTHTTPCodesNo499ClientClosedRequestNginx = 499,
+    HTTPCode4XXSuccessUnknown = 4,
+    HTTPCode400BadRequest = 400,
+    HTTPCode401Unauthorised = 401,
+    HTTPCode402PaymentRequired = 402,
+    HTTPCode403Forbidden = 403,
+    HTTPCode404NotFound = 404,
+    HTTPCode405MethodNotAllowed = 405,
+    HTTPCode406NotAcceptable = 406,
+    HTTPCode407ProxyAuthenticationRequired = 407,
+    HTTPCode408RequestTimeout = 408,
+    HTTPCode409Conflict = 409,
+    HTTPCode410Gone = 410,
+    HTTPCode411LengthRequired = 411,
+    HTTPCode412PreconditionFailed = 412,
+    HTTPCode413RequestEntityTooLarge = 413,
+    HTTPCode414RequestURITooLong = 414,
+    HTTPCode415UnsupportedMediaType = 415,
+    HTTPCode416RequestedRangeNotSatisfiable = 416,
+    HTTPCode417ExpectationFailed = 417,
+    HTTPCode418IamATeapot = 418,
+    HTTPCode419AuthenticationTimeout = 419,
+    HTTPCode420MethodFailureSpringFramework = 420,
+    HTTPCode420EnhanceYourCalmTwitter = 4200,
+    HTTPCode422UnprocessableEntity = 422,
+    HTTPCode423Locked = 423,
+    HTTPCode424FailedDependency = 424,
+    HTTPCode424MethodFailureWebDaw = 4240,
+    HTTPCode425UnorderedCollection = 425,
+    HTTPCode426UpgradeRequired = 426,
+    HTTPCode428PreconditionRequired = 428,
+    HTTPCode429TooManyRequests = 429,
+    HTTPCode431RequestHeaderFieldsTooLarge = 431,
+    HTTPCode444NoResponseNginx = 444,
+    HTTPCode449RetryWithMicrosoft = 449,
+    HTTPCode450BlockedByWindowsParentalControls = 450,
+    HTTPCode451RedirectMicrosoft = 451,
+    HTTPCode451UnavailableForLegalReasons = 4510,
+    HTTPCode494RequestHeaderTooLargeNginx = 494,
+    HTTPCode495CertErrorNginx = 495,
+    HTTPCode496NoCertNginx = 496,
+    HTTPCode497HTTPToHTTPSNginx = 497,
+    HTTPCode499ClientClosedRequestNginx = 499,
     
     
     // Server error
-    FTHTTPCodesNo5XXSuccessUnknown = 5,
-    FTHTTPCodesNo500InternalServerError = 500,
-    FTHTTPCodesNo501NotImplemented = 501,
-    FTHTTPCodesNo502BadGateway = 502,
-    FTHTTPCodesNo503ServiceUnavailable = 503,
-    FTHTTPCodesNo504GatewayTimeout = 504,
-    FTHTTPCodesNo505HTTPVersionNotSupported = 505,
-    FTHTTPCodesNo506VariantAlsoNegotiates = 506,
-    FTHTTPCodesNo507InsufficientStorage = 507,
-    FTHTTPCodesNo508LoopDetected = 508,
-    FTHTTPCodesNo509BandwidthLimitExceeded = 509,
-    FTHTTPCodesNo510NotExtended = 510,
-    FTHTTPCodesNo511NetworkAuthenticationRequired = 511,
-    FTHTTPCodesNo522ConnectionTimedOut = 522,
-    FTHTTPCodesNo598NetworkReadTimeoutErrorUnknown = 598,
-    FTHTTPCodesNo599NetworkConnectTimeoutErrorUnknown = 599
+    HTTPCode5XXSuccessUnknown = 5,
+    HTTPCode500InternalServerError = 500,
+    HTTPCode501NotImplemented = 501,
+    HTTPCode502BadGateway = 502,
+    HTTPCode503ServiceUnavailable = 503,
+    HTTPCode504GatewayTimeout = 504,
+    HTTPCode505HTTPVersionNotSupported = 505,
+    HTTPCode506VariantAlsoNegotiates = 506,
+    HTTPCode507InsufficientStorage = 507,
+    HTTPCode508LoopDetected = 508,
+    HTTPCode509BandwidthLimitExceeded = 509,
+    HTTPCode510NotExtended = 510,
+    HTTPCode511NetworkAuthenticationRequired = 511,
+    HTTPCode522ConnectionTimedOut = 522,
+    HTTPCode598NetworkReadTimeoutErrorUnknown = 598,
+    HTTPCode599NetworkConnectTimeoutErrorUnknown = 599
 };
 
 
-@interface FTHTTPCodes : NSObject
+@interface FTHTTPCode : NSObject
 
 /**
  *  Return description for a specific HTTP status code
@@ -118,7 +118,7 @@ typedef NS_ENUM(NSInteger, FTHTTPCodesNo) {
  *
  *  @return Description
  */
-+ (NSString *)descriptionForCode:(FTHTTPCodesNo)code;
++ (NSString *)descriptionForCode:(HTTPCode)code;
 
 
 @end
