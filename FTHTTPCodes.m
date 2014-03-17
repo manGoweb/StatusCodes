@@ -19,7 +19,7 @@
 
 + (NSString *)descriptionForCode:(HTTPCode)code {
 
-    NSString *description = [NSString stringWithFormat:@"Unknown status code: %ld", code];
+    NSString *description = [NSString stringWithFormat:@"Unknown status code: %lu", (unsigned long)code];
 
     switch (code) {
             

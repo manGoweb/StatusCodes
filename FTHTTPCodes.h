@@ -12,7 +12,7 @@
 #import <Foundation/Foundation.h>
 
 
-typedef NS_ENUM(NSInteger, HTTPCode) {
+typedef NS_ENUM(NSUInteger, HTTPCode) {
     // Informational
     HTTPCode1XXInformationalUnknown = 1,
     HTTPCode100Continue = 100,
