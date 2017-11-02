@@ -1,0 +1,25 @@
+PODS:
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+  - SnapKit (4.0.0)
+  - StatusCodes (0.0.1)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - SnapKit
+  - StatusCodes (from `../`)
+
+EXTERNAL SOURCES:
+  StatusCodes:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  StatusCodes: cd33accd45d856090c5b9049eaf4b5025824235c
+
+PODFILE CHECKSUM: 1f07d660b9533e1a858294cddd68b4c0fafd2c04
+
+COCOAPODS: 1.3.1

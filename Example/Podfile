@@ -1,0 +1,15 @@
+platform :ios, '10.3'
+
+use_frameworks!
+
+target 'HTTP-Status-Codes-for-Swift_Example' do
+    pod 'StatusCodes', :path => '../'
+    pod 'SnapKit'
+    
+    target 'HTTP-Status-Codes-for-Swift_Tests' do
+        inherit! :search_paths
+        
+        pod 'Quick', '~> 1.2.0'
+        pod 'Nimble', '~> 7.0.2'
+    end
+end

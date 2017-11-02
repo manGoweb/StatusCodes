@@ -1,0 +1,6 @@
+framework module Pods_HTTP_Status_Codes_for_Swift_Example {
+  umbrella header "Pods-HTTP-Status-Codes-for-Swift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

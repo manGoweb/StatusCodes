@@ -1,0 +1,6 @@
+framework module StatusCodes {
+  umbrella header "StatusCodes-umbrella.h"
+
+  export *
+  module * { export * }
+}
