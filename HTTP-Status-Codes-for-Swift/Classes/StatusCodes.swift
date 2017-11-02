@@ -1,33 +1,13 @@
-# HTTP StatusCodes for Swift
+//
+//  StatusCodes.swift
+//  HTTP-Status-Codes-for-Swift
+//
+//  Created by Ondrej Rafaj on 02/11/2017.
+//
 
-[![Version](https://img.shields.io/cocoapods/v/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
-[![License](https://img.shields.io/cocoapods/l/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
-[![Platform](https://img.shields.io/cocoapods/p/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
+import Foundation
 
-This is a port of my Objective-C version [here](https://github.com/rafiki270/StatusCodes/tree/objective-c)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Installation
-
-StatusCodes is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'StatusCodes'
-```
-
-Carthage is also supported use following to install:
-
-```ruby
-github "manGoweb/StatusCodes"
-```
-
-## Available status codes
-
-```Swift
 public enum StatusCodes: Int {
     
     // Informational
@@ -124,12 +104,3 @@ public enum StatusCodes: Int {
 
 }
 
-```
-
-## Author
-
-Ondrej Rafaj, developers@mangoweb.cz
-
-## License
-
-StatusCodes is available under the MIT license. See the LICENSE file for more info.

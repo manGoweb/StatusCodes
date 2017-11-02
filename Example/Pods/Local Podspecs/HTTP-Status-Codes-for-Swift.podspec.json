@@ -1,0 +1,22 @@
+{
+  "name": "StatusCodes",
+  "version": "0.1.0",
+  "summary": "A short description of HTTP-Status-Codes-for-Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ondrej Rafaj/HTTP-Status-Codes-for-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ondrej Rafaj": "ondrej.rafaj@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ondrej Rafaj/HTTP-Status-Codes-for-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTTP-Status-Codes-for-Swift/Classes/**/*"
+}
