@@ -1,6 +1,10 @@
 HTTP-Status-Codes-for-Objective-C
 =================================
 
+### !!!!!! New Swift 4 version can be found [here](https://github.com/manGoweb/StatusCodes)
+
+=================================
+
 Contains HTTP request codes:
 
     typedef NS_ENUM(NSInteger, FTHTTPCodesNo) {
