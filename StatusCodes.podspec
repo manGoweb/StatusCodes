@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'StatusCodes'
-    s.version          = '2.0.0'
+    s.version          = '2.0.1'
     s.summary          = 'HTTP status codes for Swift'
 
     s.description      = "Swift enum which contans (at least to my knowledge) all available status codes as Int values."
