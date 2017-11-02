@@ -2,9 +2,9 @@
 
 [![Version](https://img.shields.io/cocoapods/v/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
 [![License](https://img.shields.io/cocoapods/l/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
-[![Platform](https://img.shields.io/cocoapods/p/StatusCodes.svg?style=flat)](http://cocoapods.org/pods/StatusCodes)
+[![Platform](https://img.shields.io/cocoapods/p/StatusCodes.svg?style=flat)](httphttps://cocoapods.org/pods/StatusCodes)
 
-This is a port of my Objective-C version [here](https://github.com/rafiki270/StatusCodes/tree/objective-c)
+This is a port of my Objective-C version [here](https://github.com/rafiki270/HTTP-Status-Codes-for-Objective-C)
 
 ## Example
 
