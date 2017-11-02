@@ -1,6 +1,6 @@
 {
   "name": "StatusCodes",
-  "version": "0.0.1",
+  "version": "2.0.1",
   "summary": "HTTP status codes for Swift",
   "description": "Swift enum which contans (at least to my knowledge) all available status codes as Int values.",
   "homepage": "http://github.com/manGoweb/StatusCodes",
@@ -13,11 +13,13 @@
   },
   "source": {
     "git": "https://github.com/manGoweb/StatusCodes.git",
-    "tag": "0.0.1"
+    "tag": "2.0.1"
   },
   "social_media_url": "http://twitter.com/mangowebuk",
   "platforms": {
-    "ios": "10.3"
+    "ios": "10.3",
+    "tvos": "10.0",
+    "osx": "10.12"
   },
   "source_files": "HTTP-Status-Codes-for-Swift/Classes/**/*"
 }

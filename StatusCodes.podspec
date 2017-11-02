@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'StatusCodes'
-    s.version          = '2.0.1'
+    s.version          = '2.0.2'
     s.summary          = 'HTTP status codes for Swift'
 
     s.description      = "Swift enum which contans (at least to my knowledge) all available status codes as Int values."
@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
     s.social_media_url = 'http://twitter.com/mangowebuk'
 
     s.ios.deployment_target = '10.3'
+    s.tvos.deployment_target = '10.0'
+    s.macos.deployment_target = '10.12'
 
     s.source_files = 'HTTP-Status-Codes-for-Swift/Classes/**/*'
 
